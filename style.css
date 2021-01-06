@@ -24,7 +24,7 @@ h4 {
 }
 
 p {
-    color: seagreen;
+    color: orangered;
 }
 
 .highlight {
@@ -97,4 +97,15 @@ section {
 
 p.block {
     text-align: center;
+}
+
+p.mail {
+    text-align: center;
+    padding: 40px;
+    margin-right: 50%;
+}
+
+.footer-box {
+    width: 150%;
+    margin-left: 100px;
 }
