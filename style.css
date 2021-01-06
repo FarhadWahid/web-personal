@@ -21,10 +21,15 @@ h3 {
 
 h4 {
     text-align: center;
+    color: royalblue;
+}
+
+h5 {
+    text-align: center;
 }
 
 p {
-    color: orangered;
+    color: black;
 }
 
 .highlight {
@@ -92,7 +97,7 @@ section {
 }
 
 .what-say {
-    padding: 40px;
+    padding: 10px;
 }
 
 p.block {
@@ -101,11 +106,21 @@ p.block {
 
 p.mail {
     text-align: center;
-    padding: 40px;
-    margin-right: 50%;
+    padding: 60px;
+    margin-right: 140px;
+    color: black;
 }
 
 .footer-box {
-    width: 150%;
-    margin-left: 100px;
+    width: 50%;
+    border: 3px;
+    padding: 2px;
+    margin-left: 320px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+
+.footer {
+    widows: 700px;
 }
