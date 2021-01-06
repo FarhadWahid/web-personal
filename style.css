@@ -1,16 +1,30 @@
 body {
+    margin: ;
     font-family: 'Xanh Mono', monospace;
 }
 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
 
 .h2 {
-    text-align: left;
-    font-size: 70px;
-    padding-bottom: 20px 30px;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px 20px;
     font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    color: seagreen;
 }
 
 .highlight {
@@ -27,7 +41,7 @@ h1 {
 }
 
 section {
-    height: 200px;
+    height: 500px;
     padding-bottom: 150px;
 }
 
@@ -46,17 +60,41 @@ section {
     background-image: url(biography-bg.png);
 }
 
+.latest-work {
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150%;
+}
+
 .half-width img {
     width: 100%;
 }
 
 .latest-div {
+    width: 15%;
     float: left;
-    width: 10.3%;
     padding: 5px;
+    margin: 2%;
 }
 
-.latest-work {
-    height: 180px;
-    padding: 5px;
+.latest-div img {
+    width: 120%;
+    float: left;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.latest-def {
+    text-align: justify;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.what-say {
+    padding: 40px;
+}
+
+p.block {
+    text-align: center;
 }
